@@ -1,9 +1,10 @@
 def main(a):
     """
-    Given a two-digit integer a,  check the following statement "All digits of the number are the same".
+    Given a two-digit integer a,  check the following statement "All digits sum is even".
     Args:
         a(int): parameter a
     Returns:
         bool: answer
     """
-    return
+    return a%10==0+a//10%10
+print(main(11))
