@@ -7,5 +7,5 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    return a%2==1 and b%2==1
-print(main(1,7))
+    return a%2==0 and b%2==0 or a%2==1 and b%2==0 or a%2==0 and b%2==1 
+print(main(1,8))
